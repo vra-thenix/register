@@ -1,4 +1,4 @@
-const R = require('ramda');
+const R = require('ramda')
 const { VALID_RECORD_TYPES, DOMAIN_HOST_IP, TTL, ENV } = require('../utils/constants');
 const { domainService: dc } = require('../utils/domain-service');
 const { getDomains: gd } = require('../utils/get-domain');
