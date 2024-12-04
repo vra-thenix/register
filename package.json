@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Register *.is-a.dev domains for free",
   "scripts": {
-    "lint": "eslint utils scripts domains --ext .json,.",
+    "lint": "eslint utils scripts domains --ext .json,.js",
     "publish-records": "bun run -b ./scripts/register-domains.js",
     "dc": "docker-compose -p is-a-dev",
     "dc:start": "bun run dc up",
